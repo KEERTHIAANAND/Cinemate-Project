@@ -1,11 +1,10 @@
 import './App.css';
-
-import React from 'react'
+import { AllRoutes } from './routes/AllRoutes';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <AllRoutes/>
     </div>
   )
 }
